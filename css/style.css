@@ -10,7 +10,7 @@
     background: #E8DEDE;
 }
 .container{
-    width: 1170px;
+    width: 1210px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -93,3 +93,111 @@ padding: 10px;
     background: #CDCDCD;
     border: 1px solid #CDCDCD;
 }
+
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 28px;
+}
+.card{
+    width: 368px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-heading{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+margin-bottom: 13px;
+
+}
+.card-heading:hover{
+    color: #FFA500;
+}
+.card-text{
+   
+}
+.card-content{
+    width: 154px;
+    text-align: justify;
+    
+}
+/*
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 28px;
+}
+.card{
+    width: 368px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-heading{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFA500;
+}
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 28px;
+}
+.card{
+    width: 368px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-heading{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 28px;
+}
+.card{
+    width: 368px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-heading{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+*/
